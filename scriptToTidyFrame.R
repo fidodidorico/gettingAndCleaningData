@@ -4,7 +4,7 @@
 # 3. remove (-) from the names
 # 4. to lower
 
-withoutParenthesis<-gsub("()","", names(df_withActivityLabelsRenamed), fixed = TRUE)
+withoutParenthesis<-gsub("()","", names(df_summarizeMean), fixed = TRUE)
 withoutBodyDuplicated<-gsub("BodyBody","Body", withoutParenthesis, fixed = TRUE)
 withoutScore<-gsub("-","",withoutBodyDuplicated, fixed = TRUE)%>%tolower()
-colnames(df_withActivityLabelsRenamed)<-withoutScore
+colnames(df_summarizeMean)<-withoutScore
