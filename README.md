@@ -2,15 +2,8 @@ Modified version of Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 Martin Rico
 
+The modifications to original data set (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) are part of the final project for the Coursera Course : Getting and Cleaning Data
 =====================================
-
-The modifications to original data set (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-are part of the final project for the Coursera Course : Getting and Cleaning Data
-======================================
-
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-- Triaxial Angular velocity from the gyroscope. 
-- A 84-varibales with the value of the mean for the activity and subject groups
 
 
 The script to execute the analisys include:
